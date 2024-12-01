@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+    body {
+        position: relative;
+        background: url("image/pexels-8moments-1183099.jpg") no-repeat center center;
+        background-size: cover; 
+        margin: 0; 
+        height: 100vh;
+    }
+.container{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(240, 255, 255, 0.178);
+   width: 400px;
+   height: 400px;
+   padding: 20px;
+   text-align: center;
+   border-radius: 25px;
+   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+   
+   }
+   h1{
+  padding-top: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+
+.container input{
+    height:30px;
+    width:max-content;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+   color: antiquewhite;
+  background-color: rgba(15, 23, 26, 0.925);
+}
+.container button{
+    height: 30px;
+    width: 10vh;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    
+    
+   
+ 
+
+}
+#containerinfo{
+    display: flex;
+    justify-content: space-evenly;
+   
+    /* background-color: brown; */
+gap : 30px;
+height: 300px;
+width: 350px;   
+flex-wrap: wrap;
+margin-top: 10px;
+
+}
+#containerinfo div{
+    height: 100px;
+    width: 150px;
+    /* background-color: rgb(27, 102, 168); */
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-top: 15px;  
+    color: rgba(240, 238, 116, 0.575);
+   
+}
+.box ,.fa-solid{
+    padding: 10px;
+
+}
+
+
+
+ 
+
+

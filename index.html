@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <h1>Weather app</h1>
+    <div class="container">
+      <input type="text" placeholder="enter the city" id="entercity" />
+      <button onclick="weathercheck()" id="search-button ">Search</button>
+
+      <div id="containerinfo">
+        <div class="box">
+            <p><i class="fa-solid fa-globe fa-xl"></i>City</p>
+          <p id="displaycity" ></p>
+          <p id="displaydate"></p>
+        </div>
+        <div class="box">
+          
+            <p><i class="fa-solid fa-temperature-three-quarters fa-xl"></i>Temprature</p>
+          <p id="displaytemp"></p>
+        </div>
+        <div class="box">
+        <p><i class="fa-solid fa-map fa-xl"></i>Humidity</p>
+          <p id="displayhumide"></p>
+        </div>
+        <div class="box">
+          <p ><i class="fa-solid fa-cloud fa-xl"></i> Cloud</p>
+          <p id="displaycloud"></p>
+        </div>
+      </div>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>
+<i class="fa-solid fa-temperature-three-quarters"></i>
+<i class="fa-solid fa-cloud"></i>
+<i class="fa-solid fa-droplet-percent"></i>
